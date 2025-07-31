@@ -52,7 +52,7 @@
 /datum/supply_pack/security/armory/short_mod_laser // АЕГ за 5000 кредитов.
 	name = "Hoshi Modular Laser Carbines Crate"
 	desc = "В ящике находится три модулярных лазерных винтовок с интегрированной автозарядкой."
-	cost = CARGO_CRATE_VALUE * 150
+	cost = PAYCHECK_COMMAND * 150
 	contains = list(/obj/item/gun/energy/modular_laser_rifle/carbine = 3)
 	crate_name = "Hoshi Modular Laser Carbines Crate"
 
