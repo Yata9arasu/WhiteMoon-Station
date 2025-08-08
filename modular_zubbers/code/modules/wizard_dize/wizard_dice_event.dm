@@ -10,8 +10,8 @@
 	max_wizard_trigger_potency = NEVER_TRIGGERED_BY_WIZARDS
 
 	min_players = 30
-	max_occurrences = 1
-	weight = 10
+	max_occurrences = 0 // Previously 1
+	weight = 0 // Previously 10
 	earliest_start = 60 MINUTES
 
 	track = EVENT_TRACK_MODERATE

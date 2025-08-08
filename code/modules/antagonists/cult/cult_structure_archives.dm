@@ -2,7 +2,6 @@
 #define CULT_BLINDFOLD "Zealot's Blindfold"
 #define CURSE_ORB "Shuttle Curse"
 #define VEIL_WALKER "Veil Walker"
-#define VEIL_TORCH "Void Torch"
 #define CRIMSON_MEDALLION "Crimson Medallion"
 
 // Cult archives. Gives out utility items.
@@ -36,12 +35,6 @@
 			RADIAL_DESC = "Creates \a [/obj/item/cult_shift::name], a small wand that teleports the user \
 				- and anyone the user is dragging - forward some distance.  Has [/obj/item/cult_shift::uses] uses.",
 			),
-		VEIL_TORCH = list(
-			PREVIEW_IMAGE = image(icon = 'icons/obj/lighting.dmi', icon_state = "torch-on"),
-			OUTPUT_ITEMS = list(/obj/item/flashlight/flare/culttorch),
-			RADIAL_DESC = "Creates \a [/obj/item/flashlight/flare/culttorch::name], a small wand that teleports items to cultists. \
-				Has [/obj/item/flashlight/flare/culttorch::charges] charges.",
-			),
 	)
 
 	var/extra_item = extra_options()
@@ -72,5 +65,4 @@
 #undef CULT_BLINDFOLD
 #undef CURSE_ORB
 #undef VEIL_WALKER
-#undef VEIL_TORCH
 #undef CRIMSON_MEDALLION
