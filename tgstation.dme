@@ -10429,6 +10429,7 @@
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\starting_lore.dm"
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\void_lore.dm"
 #include "modular_zzz\code\modules\antagonists\nightmare\nightmare_organs.dm"
+#include "modular_zzz\code\modules\antagonists\nukeop\inteq_objective.dm"
 #include "modular_zzz\code\modules\antagonists\nukeop\inteq_uplink.dm"
 #include "modular_zzz\code\modules\antagonists\nukeop\operative_lone.dm"
 #include "modular_zzz\code\modules\antagonists\nukeop\outfits.dm"
