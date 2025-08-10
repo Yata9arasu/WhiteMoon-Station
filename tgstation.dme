@@ -10460,6 +10460,7 @@
 #include "modular_zzz\code\modules\client\preferences\preferred_chaos_level.dm"
 #include "modular_zzz\code\modules\clothing\back\backpack.dm"
 #include "modular_zzz\code\modules\clothing\belts\belts.dm"
+#include "modular_zzz\code\modules\clothing\catcrinstuff\catcrin_healthscan_suit.dm"
 #include "modular_zzz\code\modules\clothing\catcrinstuff\catcrinstuff.dm"
 #include "modular_zzz\code\modules\clothing\gloves\gloves.dm"
 #include "modular_zzz\code\modules\clothing\heads\helmet.dm"
