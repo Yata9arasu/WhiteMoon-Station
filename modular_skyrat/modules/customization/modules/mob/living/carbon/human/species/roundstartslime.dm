@@ -352,7 +352,7 @@
 	new_body.socks = "Nude" //Which socks the player wants
 	brainmob.stored_dna.copy_dna(new_body.dna, COPY_DNA_SE|COPY_DNA_SPECIES)
 	new_body.dna.features["mcolor"] = new_body.dna.features["mcolor"]
-	new_body.dna.update_uf_block(DNA_MUTANT_COLOR_BLOCK)
+	new_body.dna.update_uf_block(/datum/dna_block/feature/mutant_color)
 	new_body.real_name = new_body.dna.real_name
 	new_body.name = new_body.dna.real_name
 	new_body.updateappearance(mutcolor_update=1)
@@ -734,7 +734,7 @@
 
 	alterer.skin_tone = selected_skintone
 	alterer.dna.features["skin_color"] = skintone2hex(selected_skintone)
-	alterer.dna.update_uf_block(DNA_SKIN_TONE_BLOCK)
+	alterer.dna.update_uf_block(/datum/dna_block/identity/skin_tone)
 	alterer.update_body(is_creating = TRUE)
 
 /**
