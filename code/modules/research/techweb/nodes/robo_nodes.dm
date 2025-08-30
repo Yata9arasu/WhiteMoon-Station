@@ -31,7 +31,7 @@
 	design_ids = list(
 		"aicore",
 		"aifixer",
-		"aiupload",
+		// "aiupload", // ! WHITEMOON. Убрал возможность печатать платы смены законов, чтобы антагонисты не просто распечатали и пошли законы менять, а крали плату из хранилища.
 		"asimov_module",
 		"borg_ai_control",
 		"corporate_module",
@@ -59,7 +59,7 @@
 		design_ids -= list(
 			"aicore",
 			"aifixer",
-			"aiupload",
+			// "aiupload", // ! WHITEMOON. Убрал возможность печатать платы смены законов, чтобы антагонисты не просто распечатали и пошли законы менять, а крали плату из хранилища.
 			"borg_ai_control",
 			"intellicard",
 			"mecha_tracking_ai_control",

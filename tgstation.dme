@@ -10420,6 +10420,7 @@
 #include "modular_zzz\code\game\objects\items\miscellaneous.dm"
 #include "modular_zzz\code\game\objects\items\food\monkeycube.dm"
 #include "modular_zzz\code\game\objects\items\melee\misc.dm"
+#include "modular_zzz\code\game\objects\items\stacks\sheet_types.dm"
 #include "modular_zzz\code\game\objects\items\storage\uplink_kits.dm"
 #include "modular_zzz\code\modules\antagonists\hatred\hatred.dm"
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\ash_lore.dm"
