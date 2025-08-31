@@ -31,7 +31,7 @@
 	prereq_ids = list(TECHWEB_NODE_AUGMENTATION)
 	design_ids = list(
 		"robocontrol",
-		// "borgupload", // ! WHITEMOON. Убрал возможность печатать платы смены законов, чтобы антагонисты не просто распечатали и пошли законы менять, а крали плату из хранилища.
+		"borgupload",
 		"cyborgrecharger",
 		"mmi_posi",
 		"mmi",
