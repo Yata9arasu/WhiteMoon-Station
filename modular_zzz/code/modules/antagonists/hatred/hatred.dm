@@ -451,7 +451,7 @@
 	var/quick_empty_flag = FALSE
 
 /obj/item/ammo_box/magazine/internal/shot/hatred
-	ammo_type = /obj/item/ammo_casing/shotgun/magnum
+	ammo_type = /obj/item/ammo_box/advanced/s12gauge
 	max_ammo = 6 // there are 7 shells in default ammo boxes, so shotgun has perfect 6+1 slots.
 
 // /obj/item/gun/ballistic/shotgun/riot/hatred/Destroy()
@@ -912,7 +912,7 @@
 		if("Riot Shotgun")
 			P.atom_storage.set_holdable(list(/obj/item/ammo_box/advanced/s12gauge), list(), list(/obj/item/ammo_box/advanced/s12gauge))
 			P.atom_storage.max_slots = 10
-			new /obj/item/ammo_box/advanced/s12gauge/magnum(P)
+			new /obj/item/ammo_box/advanced/s12gauge/laser(P)
 			new /obj/item/ammo_box/advanced/s12gauge(P)
 			// new /obj/item/ammo_box/magazine/m12g/slug(P)
 			// new /obj/item/ammo_box/advanced/s12gauge/incendiary(P)
