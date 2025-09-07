@@ -579,6 +579,7 @@
 #include "code\__DEFINES\~~~~white_defines\colors.dm"
 #include "code\__DEFINES\~~~~white_defines\custom_emote_panel.dm"
 #include "code\__DEFINES\~~~~white_defines\robot_defines.dm"
+#include "code\__DEFINES\~~~~white_defines\role_preferences.dm"
 #include "code\__DEFINES\~~~~white_defines\sight.dm"
 #include "code\__DEFINES\~~~~white_defines\sound.dm"
 #include "code\__DEFINES\~~~~white_defines\traits_declaration.dm"
